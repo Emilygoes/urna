@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+body {
+    background-color: rgb(245, 242, 219);
+    color: rgb(30, 18, 85);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: 1px solid rgb(113, 130, 155);
+    color: rgb(30, 18, 85);
+    background-color: rgba(71, 95, 148, 0.479);
+}
+
+h1{
+font-size: 80px;
+text-shadow: 3px 3px 0px #5a70a3;
+
+}
+
+.aba {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #39367e;
+    background: #39367e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10%;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+}
+
+.branco,
+.corrige,
+.confirma {
+    height: 40px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10%;
+}
+
+.branco {
+    background: #9c9b9b;
+    color: #ffffff;
+    border: 1px solid #9c9b9b;
+    box-shadow: 0px 4px 6px rgb(136, 136, 136);
+}
+
+.corrige {
+    background: #dfdd74;
+    color: #ffffff;
+    border: 1px solid #dfdd74;
+    box-shadow: 0px 4px 6px rgb(136, 136, 136);
+}
+
+.confirma {
+    background: #388a5e;
+    color: white;
+    border: 1px solid #388a5e;
+    box-shadow: 0px 4px 6px rgb(136, 136, 136);
+}
+
+
