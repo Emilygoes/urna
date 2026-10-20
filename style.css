@@ -4,7 +4,7 @@ body {
     background-color: rgb(245, 242, 219);
     color: rgb(30, 18, 85);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 button{
@@ -67,4 +67,58 @@ text-shadow: 3px 3px 0px #5a70a3;
     box-shadow: 0px 4px 6px rgb(136, 136, 136);
 }
 
+.visor {
+    min-height: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #f2eeee;
+    border: 3px solid #0c177a;
+    border-radius: 8px;
+    color: #222222;
+    text-align: center;
+}
 
+.visor {
+    width: 500px;
+    margin: 0 auto 10px;
+    box-sizing: border-box;
+}
+
+#nomeCandidato,
+#numeroCandidato {
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid #641960;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+#nomeCandidato:focus,
+#numeroCandidato:focus {
+    border-color: #c609ff;
+}
+
+#formCandidato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#formCandidato button {
+    padding: 12px 22px;
+    margin: 10px 5px 5px;
+    border: none;
+    border-radius: 6px;
+    background: #39367e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+    flex-basis: 100%;
+    width: fit-content;
+}
